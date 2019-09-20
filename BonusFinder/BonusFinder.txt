@@ -1,0 +1,11 @@
+You are a manager trying to give out bonuses to your employees.
+All of your employees sit at desks in a row.
+All of your employees start with a bonus of 1
+if an employee performs better than an employee directly next to them, they get a +1 to their bonus.
+They get a +2 bonus, if they out perform both employees next to them.
+
+Sample Input:
+[1, 2, 3, 2, 3, 5, 1]
+
+Sample Output:
+[1, 2, 3, 1, 2, 3, 1]
