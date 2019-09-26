@@ -1,0 +1,17 @@
+You are given an array of integers, and are tasked with figuring out how many jumps it will take to get to the end.
+Starting at index 0, you may jump X times, where X equals the number at the current index.
+
+
+Example Input:
+[3, 2, 5, 1, 1, 9, 3, 4]
+Answer:
+2 jumps
+3 -> 5 -> 4
+
+
+Example Input:
+[3, 2, 1, 2, 1, 2, 3, 4, 1, 2, 1]
+Answer:
+4 jumps
+3 -> 2 -> 2 -> 4 -> 1
+
