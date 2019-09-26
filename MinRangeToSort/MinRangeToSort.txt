@@ -1,0 +1,10 @@
+You are given a list of integers.
+Return the bounds of the minimum range that need to be sorted, to fully sort the whole list
+
+Sample Input:
+[1, 7, 9, 5, 7, 8, 10]
+
+Sample Output:
+[1, 5]
+
+The integers at indexes from 1 to 5, [7, 9, 5, 7, 8], need to be sorted to sort the whole list
