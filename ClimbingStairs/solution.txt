@@ -1,0 +1,17 @@
+Because you can move 1 or 2 steps at a time, if a staircase has n number of steps,
+you can always reach the top of the staircase from the step at n-1, or n-2.
+
+If you are at step n-1, you have 1 way to reach the top.
+If you are at step n-2, you have 2 ways to reach the top
+
+If we start at the top of the staircase, and work our way down recursively, we can pretty easily solve this problem.
+At n-2, we have 2 ways to reach the top, at n-4, we have 2 ways, to reach n-2, and so on.
+
+To explain this as a formula, let's look at it like this
+
+waysToReachTheTop(n) = waysToReachTheTop(n-1) + waysToReachTheTop(n-2).
+
+The above is just the equation for fibonacci numbers, meaning we can solve this problem, by writing a fibonacci number generator.
+The important thing to point out though, is that we don't want the nth fibonacci number, we want the nth+1 fibonacci number.
+
+waysToReachTheTop(3) = fib(4) = 3

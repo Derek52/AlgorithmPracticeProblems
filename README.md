@@ -7,3 +7,5 @@ I've added a script called `AddProblem.sh` to help add problems to this repo. Ju
 For Example, to add the Queens on a Chess board problem,
 
 Simply run `./AddProblem.sh QueensOnChessBoard`. This will create a new folder for the problem, that will contain a text file for the prompt, and a java and python folder, both containing a basic java/python file. Adding new languages to the script is pretty easy if you know any Bash scripting.
+
+This script will also add a java test file. It doesn't use an actual testing framework, it's just a basic class, I use to run my solution class. It's a little prettier than putting the code to solve these problems, with the code to run those solutions, and check the answers.

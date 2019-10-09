@@ -1,10 +1,8 @@
 public class ClimbingStairs {
-	public static void main(String[] args) {
 
-		int stairCase = 18;
 
-		System.out.println("Unique number of ways to climb staircase = " + countWaysToTop(stairCase));
-			
+	static int solve(int input) {
+		return countWaysToTop(input);
 	}
 
 	static int getFibonacci(int num) {
